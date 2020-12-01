@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+    /*
+    margin-right: 850px;
+    */
+    max-width: 600px;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    background-color: black;
+    color: limegreen;
+    font-family: courier;
+}
