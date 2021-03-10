@@ -1,3 +1,7 @@
+:root {
+    --sbwidth: 130px;
+}
+
 body {
     background-color: powderblue;
     /*
@@ -7,11 +11,36 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: black;
 }
 
+/*
 p {
     background-color: black;
     color: limegreen;
     font-family: courier;
+}
+*/
+
+.sidebar {
+    width: var(--sbwidth);
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #c0c0c0;
+    overflow-x: hidden;
+    padding 8px 0;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+  display: block;
+}
+
+.main {
+    margin-left: calc(20px + var(--sbwidth));
 }
