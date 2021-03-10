@@ -8,6 +8,10 @@ body {
     margin-right: 850px;
     */
     max-width: 600px;
+    background-image: url("selfie_polo.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 10%;
 }
 
 h1 {
