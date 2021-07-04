@@ -20,13 +20,14 @@ h1 {
     color: black;
 }
 
-/*
-p {
-    background-color: black;
-    color: limegreen;
-    font-family: courier;
+.biography {
+    width: 40em;
 }
-*/
+
+img.bio-image {
+    border-radius: 10%;
+    max-width: 200px;
+}
 
 /*
 ul.navigation-bar {
@@ -78,6 +79,10 @@ ul.navigation-bar li {
   display: block;
 }
 */
+
+.services p {
+    width: 40em;
+}
 
 .main {
     /*
