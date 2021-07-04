@@ -3,15 +3,17 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: #e6e6fa;
     /*
     margin-right: 850px;
     */
+    /*
     max-width: 600px;
     background-image: url("images/selfie_longhair.jpg");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 10%;
+    */
 }
 
 h1 {
@@ -26,7 +28,8 @@ p {
 }
 */
 
-.sidebar {
+/*
+ul.navigation-bar {
     width: var(--sbwidth);
     position: fixed;
     z-index: 1;
@@ -36,15 +39,48 @@ p {
     overflow-x: hidden;
     padding 8px 0;
 }
+*/
 
-.sidebar a {
-  padding: 6px 8px 6px 16px;
+ul.navigation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*display: inline-block;*/
+}
+
+.navigation-bar {
+    float: right;
+}
+
+.navigation-list li {
+    float: left;
+}
+
+ul.navigation-list a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation-list a:hover {
+    color: #c0c0c0;
+}
+/*
+ul.navigation-bar li {
+  padding: 6px 8px 6px 0px;
   text-decoration: none;
   font-size: 20px;
   color: #2196F3;
   display: block;
 }
+*/
 
 .main {
+    /*
     margin-left: calc(20px + var(--sbwidth));
+    */
 }
